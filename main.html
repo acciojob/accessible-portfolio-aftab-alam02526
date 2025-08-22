@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible Web Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Heading with ARIA role -->
+  <h1 role="heading">Welcome to Nature Explorer</h1>
+
+  <!-- Navigation with ARIA role -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#">Home</a></li>
+      <li role="listitem"><a href="#">Gallery</a></li>
+      <li role="listitem"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image with ARIA role and alt attribute -->
+  <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="A scenic view of Norwegian fjords" role="img" width="600">
+
+  <!-- Brief description paragraph -->
+  <p>
+    Nature Explorer is your guide to discovering the most breathtaking natural landscapes around the world. 
+    From towering mountains to serene lakes, there's always something new to explore.
+  </p>
+
+  <!-- List with ARIA roles -->
+  <ul role="list">
+    <li role="listitem">Mountains</li>
+    <li role="listitem">Rivers</li>
+    <li role="listitem">Forests</li>
+  </ul>
 
 </body>
+</html>
+
 
 </html>
